@@ -1,4 +1,4 @@
 # dmenu
 My build of Suckless's Dmenu.
 
-![Dmenu Screenshot](/screenshot/dmenu.png)
+[Dmenu Screenshot](/screenshot/dmenu.png)
