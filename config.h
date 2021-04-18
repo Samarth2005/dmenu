@@ -6,7 +6,7 @@ static int centered = 1;                    /* -c option; centers dmenu on scree
 static int min_width = 800;                    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Mononoki:size=12"
+	"Iosevka Nerd Font:size=14",
 };
 static const char *prompt      = "run: " ;      /* -p option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
@@ -20,7 +20,7 @@ static const char *colors[SchemeLast][2] = {
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 15;
-static unsigned int lineheight = 22;         /* -h option; minimum height of a menu line     */
+static unsigned int lineheight = 26;         /* -h option; minimum height of a menu line     */
 
 /*
  * Characters not considered part of a word while deleting words
@@ -29,4 +29,4 @@ static unsigned int lineheight = 22;         /* -h option; minimum height of a m
 static const char worddelimiters[] = " ";
 
 /* Size of the window border */
-static unsigned int border_width = 0;  /* -bw option; to add border width */
+static unsigned int border_width = 5;  /* -bw option; to add border width */
