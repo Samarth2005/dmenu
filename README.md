@@ -1,4 +1,2 @@
 # dmenu
-My build of Suckless's Dmenu.
-
-![Dmenu Screenshot](/screenshots/dmenu.png)
+My build of Suckless's Dmenu with the gruvbox theme.
